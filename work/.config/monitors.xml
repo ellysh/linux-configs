@@ -1,0 +1,59 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="DVI-I-1">
+          <vendor>GSM</vendor>
+          <product>0x446f</product>
+          <serial>0x0002c583</serial>
+      </output>
+      <output name="TV-1">
+      </output>
+      <output name="VGA-1">
+          <vendor>GSM</vendor>
+          <product>0x43e5</product>
+          <serial>0x000183b9</serial>
+          <width>1280</width>
+          <height>1024</height>
+          <rate>75</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DVI-I-1">
+          <vendor>GSM</vendor>
+          <product>0x43e5</product>
+          <serial>0x000183b9</serial>
+          <width>1280</width>
+          <height>1024</height>
+          <rate>75</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="TV-1">
+      </output>
+      <output name="VGA-1">
+          <vendor>GSM</vendor>
+          <product>0x446f</product>
+          <serial>0x0002c583</serial>
+          <width>1280</width>
+          <height>1024</height>
+          <rate>75</rate>
+          <x>1280</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+  </configuration>
+</monitors>

@@ -1,0 +1,8 @@
+# Write your default config options here!
+fs="1"
+zoom="1"
+vf=eq=20:30
+softvol="1"
+softvol-max=100
+subcp="utf-8"
+#-fs -zoom -vf eq=40:50 -softvol -softvol-max 300 -aid 1

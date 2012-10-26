@@ -1,0 +1,25 @@
+[global_config]
+  title_transmit_bg_color = "#b2b0b0"
+  title_transmit_fg_color = "#000000"
+  title_inactive_bg_color = "#4e4e4e"
+[keybindings]
+  close_window = <Shift><Control>x
+  next_tab = <Shift>Right
+  split_horiz = <Shift><Control>h
+  go_prev = <Alt>p
+  prev_tab = <Shift>Left
+  move_tab_right = <Shift><Control>Right
+  move_tab_left = <Shift><Control>Left
+  go_next = <Alt>n
+  split_vert = <Shift><Control>j
+[profiles]
+  [[default]]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
