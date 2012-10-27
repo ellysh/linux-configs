@@ -57,30 +57,35 @@ set incsearch
 " Stop search at the file end
 set nowrapscan
 
-" Open/close Winmanager plugin window
-map <F1> :WMToggle<CR>
-imap <F1> <Esc>:WMToggle<CR>
-vmap <F1> <Esc>:WMToggle<CR>
+" Next tag search
+nmap <F1> :tn<CR>
+imap <F1> <Esc>:tn<CR>
+vmap <F1> <Esc>:tn<CR>
 
-" Open/close Tag List plugin window
-map <F2> :TlistToggle<CR>
-imap <F2> <Esc>:TlistToggle<CR>
-vmap <F2> <Esc>:TlistToggle<CR>
-
-" Очистить подсветку последнего найденного выражения
-nmap <F3> :nohlsearch<CR>
-imap <F3> <Esc>:nohlsearch<CR>
-vmap <F3> <Esc>:nohlsearch<CR>gv
+" Prev tag search
+nmap <F2> :tn<CR>
+imap <F2> <Esc>:tn<CR>
+vmap <F2> <Esc>:tn<CR>
 
 " Save file
-nmap <F4> :w!<CR>
-imap <F4> <Esc>:w!<CR>
-vmap <F4> <Esc>:w!<CR>
+nmap <F3> :w!<CR>
+imap <F3> <Esc>:w!<CR>
+vmap <F3> <Esc>:w!<CR>
 
 " Close vim
-nmap <F5> :q<CR>
-imap <F5> <Esc>:q<CR>
-vmap <F5> <Esc>:q<CR>
+nmap <F4> :q<CR>
+imap <F4> <Esc>:q<CR>
+vmap <F4> <Esc>:q<CR>
+
+" Open/close Tag List plugin window
+map <F5> :TlistToggle<CR>
+imap <F5> <Esc>:TlistToggle<CR>
+vmap <F5> <Esc>:TlistToggle<CR>
+
+" Open/close Winmanager plugin window
+map <F6> :WMToggle<CR>
+imap <F6> <Esc>:WMToggle<CR>
+vmap <F6> <Esc>:WMToggle<CR>
 
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
