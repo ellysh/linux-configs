@@ -4,7 +4,7 @@
 		<item label="Run Program">
 			<action name="Execute">
 				<execute>
-					gmrun
+					grun
 				</execute>
 			</action>
 		</item>
@@ -35,6 +35,14 @@
 			<action name="Execute">
 				<execute>
 					transmission
+				</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="Shutdown">
+			<action name="Execute">
+				<execute>
+					terminator -e "sudo shutdown -h now"
 				</execute>
 			</action>
 		</item>
