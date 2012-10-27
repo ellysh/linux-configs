@@ -82,10 +82,10 @@ map <F5> :TlistToggle<CR>
 imap <F5> <Esc>:TlistToggle<CR>
 vmap <F5> <Esc>:TlistToggle<CR>
 
-" Open/close Winmanager plugin window
-map <F6> :WMToggle<CR>
-imap <F6> <Esc>:WMToggle<CR>
-vmap <F6> <Esc>:WMToggle<CR>
+" Open/close NERDTree plugin window
+map <F6> :NERDTree<CR>
+imap <F6> <Esc>:NERDTree<CR>
+vmap <F6> <Esc>:NERDTree<CR>
 
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
