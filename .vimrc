@@ -87,6 +87,11 @@ map <F7> :NERDTree<CR>
 imap <F7> <Esc>:NERDTree<CR>
 vmap <F7> <Esc>:NERDTree<CR>
 
+" Switch buffers
+set switchbuf=usetab
+nnoremap <F8> :sbnext<CR>
+nnoremap <S-F8> :sbprevious<CR>
+
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
 imap <PageUp> <C-O><C-U><C-O><C-U>
