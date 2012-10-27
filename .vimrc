@@ -43,11 +43,6 @@ set showcmd
 set linebreak
 set dy=lastline
 
-" Insert by 3rd mouse button
-set mouse=a
-map <S-Insert> <MiddleMouse>
-map! <S-Insert> <MiddleMouse>
-
 " Autocomplete
 set completeopt=menu
 
@@ -82,10 +77,15 @@ map <F5> :TlistToggle<CR>
 imap <F5> <Esc>:TlistToggle<CR>
 vmap <F5> <Esc>:TlistToggle<CR>
 
-" Open/close NERDTree plugin window
+" Open NERDTree plugin window
 map <F6> :NERDTree<CR>
 imap <F6> <Esc>:NERDTree<CR>
 vmap <F6> <Esc>:NERDTree<CR>
+
+"" Close NERDTree plugin window
+map <F7> :NERDTreeClose<CR>
+imap <F7> <Esc>:NERDTreeClose<CR>
+vmap <F7> <Esc>:NERDTreeClose<CR>
 
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
