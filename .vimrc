@@ -77,15 +77,15 @@ map <F5> :TlistToggle<CR>
 imap <F5> <Esc>:TlistToggle<CR>
 vmap <F5> <Esc>:TlistToggle<CR>
 
-" Open NERDTree plugin window
-map <F6> :NERDTree<CR>
-imap <F6> <Esc>:NERDTree<CR>
-vmap <F6> <Esc>:NERDTree<CR>
+" Open Project plugin window
+map <F6> :Project<CR>
+imap <F6> <Esc>:Project<CR>
+vmap <F6> <Esc>:Project<CR>
 
-"" Close NERDTree plugin window
-map <F7> :NERDTreeClose<CR>
-imap <F7> <Esc>:NERDTreeClose<CR>
-vmap <F7> <Esc>:NERDTreeClose<CR>
+" Open NERDTree plugin window
+map <F7> :NERDTree<CR>
+imap <F7> <Esc>:NERDTree<CR>
+vmap <F7> <Esc>:NERDTree<CR>
 
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
@@ -94,7 +94,7 @@ nmap <PageDown> <C-D><C-D>
 imap <PageDown> <C-O><C-D><C-O><C-D>
 
 " Taglist plugin configuration
-let Tlist_Auto_Open = 1
+let Tlist_Auto_Open = 0
 let Tlist_Exit_OnlyWindow = 1     " exit if taglist is last window open
 let Tlist_Show_One_File = 1       " Only show tags for current buffer
 let Tlist_Enable_Fold_Column = 0  " no fold column (only showing one file)
