@@ -68,9 +68,9 @@ imap <F3> <Esc>:w!<CR>
 vmap <F3> <Esc>:w!<CR>
 
 " Close vim
-nmap <F4> :q<CR>
-imap <F4> <Esc>:q<CR>
-vmap <F4> <Esc>:q<CR>
+nmap <F4> :q!<CR>
+imap <F4> <Esc>:q!<CR>
+vmap <F4> <Esc>:q!<CR>
 
 " Open/close Tag List plugin window
 map <F5> :TlistToggle<CR>
