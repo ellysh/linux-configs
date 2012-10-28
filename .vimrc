@@ -98,6 +98,9 @@ imap <PageUp> <C-O><C-U><C-O><C-U>
 nmap <PageDown> <C-D><C-D>
 imap <PageDown> <C-O><C-D><C-O><C-D>
 
+" Fix paste operation indents
+set pastetoggle=<F9>
+
 " Taglist plugin configuration
 let Tlist_Auto_Open = 0
 let Tlist_Exit_OnlyWindow = 1     " exit if taglist is last window open
