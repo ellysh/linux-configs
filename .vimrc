@@ -34,7 +34,9 @@ set noequalalways
 set winheight=9999
 
 " Insert 4 spaces instead tab
-set ts=4
+set tabstop=4
+set shiftwidth=4
+set expandtab 
 
 " Show executed command
 set showcmd
@@ -87,10 +89,10 @@ map <F7> :NERDTree<CR>
 imap <F7> <Esc>:NERDTree<CR>
 vmap <F7> <Esc>:NERDTree<CR>
 
-" Switch buffers
-set switchbuf=usetab
-nnoremap <F8> :sbnext<CR>
-nnoremap <S-F8> :sbprevious<CR>
+" Paste toggle
+nnoremap <F8> :set invpaste paste?<CR>
+set pastetoggle=<F8>
+set showmode
 
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
