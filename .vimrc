@@ -67,7 +67,6 @@ vmap <F2> <Esc>:w!<CR>
 " Switch buffers
 set switchbuf=usetab
 nnoremap <F3> :sbnext<CR>
-nnoremap <S-F3> :sbprevious<CR>
 
 " Close vim
 nmap <F4> :q!<CR>

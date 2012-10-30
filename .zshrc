@@ -27,6 +27,9 @@ key[PageDown]=${terminfo[knp]}
 [[ -n "${key[Left]}"    ]]  && bindkey  "${key[Left]}"    backward-char
 [[ -n "${key[Right]}"   ]]  && bindkey  "${key[Right]}"   forward-char
 
+bindkey ';5D' emacs-backward-word
+bindkey ';5C' emacs-forward-word
+
 # Use hard limits, except for a smaller stack and no core dumps
 unlimit
 limit stack 8192
