@@ -89,7 +89,7 @@ map <F7> :NERDTree<CR>
 imap <F7> <Esc>:NERDTree<CR>
 vmap <F7> <Esc>:NERDTree<CR>
 
-" Paste toggle
+" Paste indents  toggle
 nnoremap <F8> :set invpaste paste?<CR>
 set pastetoggle=<F8>
 set showmode
@@ -99,9 +99,6 @@ nmap <PageUp> <C-U><C-U>
 imap <PageUp> <C-O><C-U><C-O><C-U>
 nmap <PageDown> <C-D><C-D>
 imap <PageDown> <C-O><C-D><C-O><C-D>
-
-" Fix paste operation indents
-set pastetoggle=<F9>
 
 " Taglist plugin configuration
 let Tlist_Auto_Open = 0
