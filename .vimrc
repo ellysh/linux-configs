@@ -54,6 +54,11 @@ set incsearch
 " Stop search at the file end
 set nowrapscan
 
+" Build cscope database
+nmap <F1> :!cscope -R -b<CR>
+imap <F1> <Esc>:!cscope -R -b<CR>
+vmap <F1> <Esc>:!cscope -R -b<CR>
+
 " Save file
 nmap <F2> :w!<CR>
 imap <F2> <Esc>:w!<CR>
