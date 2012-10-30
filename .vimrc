@@ -54,20 +54,15 @@ set incsearch
 " Stop search at the file end
 set nowrapscan
 
-" Next tag search
-nmap <F1> :tn<CR>
-imap <F1> <Esc>:tn<CR>
-vmap <F1> <Esc>:tn<CR>
-
-" Prev tag search
-nmap <F2> :tn<CR>
-imap <F2> <Esc>:tn<CR>
-vmap <F2> <Esc>:tn<CR>
-
 " Save file
-nmap <F3> :w!<CR>
-imap <F3> <Esc>:w!<CR>
-vmap <F3> <Esc>:w!<CR>
+nmap <F2> :w!<CR>
+imap <F2> <Esc>:w!<CR>
+vmap <F2> <Esc>:w!<CR>
+
+" Switch buffers
+set switchbuf=usetab
+nnoremap <F3> :sbnext<CR>
+nnoremap <S-F3> :sbprevious<CR>
 
 " Close vim
 nmap <F4> :q!<CR>
