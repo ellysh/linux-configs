@@ -345,7 +345,7 @@ zstyle ':completion:*:*:(^rm):*:*files' ignored-pacodeerns '*?.o' '*?.c~' \
 # ignore completion functions (until the _ignored completer)
 zstyle ':completion:*:functions' ignored-pacodeerns '_*'
 
-# Флаги оптимизации для gcc
+# Gcc optimization flags
 CFLAGS="-O2 -fomit-frame-pointer \
 -funroll-loops -pipe -fPIC"
 CXXFLAGS="$CFLAGS"
@@ -354,3 +354,6 @@ export CFLAGS CXXFLAGS BOOTSTRAPCFLAGS
 
 export EMAIL="Ilya Shpigor <petrsum@gmail.com>"
 export EDITOR=vim
+
+# Disable terminal freezing on Ctrl+S/Ctrl+Q keys
+stty -ixon
