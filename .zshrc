@@ -192,6 +192,7 @@ alias lms='cd /home/$USER/Projects/libmysql-state'
 alias st='cd /home/$USER/Projects/simtool'
 alias vd='cd /home/$USER/Projects/virt-dashboard'
 alias ms='cd /home/$USER/Projects/mingw-starter'
+alias dr='cd /home/$USER/Projects/drivers'
 
 alias sus='sudo su -'
 alias shuh='shutdown -h now'
