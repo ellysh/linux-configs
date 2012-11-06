@@ -93,6 +93,11 @@ nnoremap <F8> :set invpaste paste?<CR>
 set pastetoggle=<F8>
 set showmode
 
+" Show/hide line numbers
+map <F9> :set invnumber<CR>
+imap <F9> <ESC>:set invnumber<CR>
+vmap <F9> <ESC>:set invnumber<CR>
+
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
 imap <PageUp> <C-O><C-U><C-O><C-U>
