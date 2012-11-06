@@ -115,3 +115,14 @@ let g:explShowHiddenFiles = 1
 
 " Aliases
 cnoreabbrev tlt TlistToggle
+" cscope commands to search
+" symbols
+cnoreabbrev cs cs f s
+" definition
+cnoreabbrev cg cs f g
+" called by this function
+cnoreabbrev cd cs f d
+" calls this function
+cnoreabbrev cc cs f c
+" text
+cnoreabbrev ct cs f t
