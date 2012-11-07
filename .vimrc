@@ -4,6 +4,7 @@ filetype plugin on
 
 " Highlight the syntax
 syntax on
+set background=dark "or light
 
 " Show line numbers
 set number
