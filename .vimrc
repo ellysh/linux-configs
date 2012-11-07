@@ -1,6 +1,10 @@
+set nocompatible
+
 filetype on
 filetype indent on
 filetype plugin on
+
+set hidden
 
 " Highlight the syntax
 syntax on
@@ -67,7 +71,8 @@ vmap <F2> <Esc>:w!<CR>
 
 " Switch buffers
 set switchbuf=usetab
-nnoremap <F3> :sbnext<CR>
+nnoremap <C-s> :sbnext<CR>
+nnoremap <C-a> :sbprev<CR>
 
 " Close vim
 nmap <F4> :q!<CR>
