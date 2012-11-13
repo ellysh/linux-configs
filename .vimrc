@@ -6,6 +6,10 @@ filetype plugin on
 
 set hidden
 
+" Show hidden characters
+set listchars=tab:>-,trail:~,extends:>,precedes:<
+set list
+
 " Highlight the syntax
 syntax on
 set background=dark "or light
