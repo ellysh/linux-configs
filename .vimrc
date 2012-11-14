@@ -73,6 +73,11 @@ nmap <F2> :w!<CR>
 imap <F2> <Esc>:w!<CR>
 vmap <F2> <Esc>:w!<CR>
 
+" Make
+nmap <F3> :!make<CR>
+imap <F3> <Esc>:!make<CR>
+vmap <F3> <Esc>:!make<CR>
+
 " Switch buffers
 set switchbuf=usetab
 nnoremap <C-s> :sbnext<CR>
