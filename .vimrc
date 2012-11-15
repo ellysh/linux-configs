@@ -113,6 +113,11 @@ map <F9> :set invnumber<CR>
 imap <F9> <ESC>:set invnumber<CR>
 vmap <F9> <ESC>:set invnumber<CR>
 
+" Close buffer command
+map <C-w> :bw<CR>
+imap <C-w> <ESC>:bw<CR>
+vmap <C-w> <ESC>:bw<CR>
+
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
 imap <PageUp> <C-O><C-U><C-O><C-U>
