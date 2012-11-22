@@ -44,6 +44,10 @@ export LESS="-R"
 
 # Aliases
 
+# autoit
+
+alias au='wine "C:\Program Files\AutoIt3\AutoIt3.exe"'
+
 # common
 alias ssh='ssh -Y'
 alias cd..='cd ..'
