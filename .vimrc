@@ -27,7 +27,11 @@ set imsearch=0
 set ic
 
 " Highlight search
-set hls
+set hlsearch
+
+nmap <C-h> :set hlsearch!<CR>
+imap <C-h> <Esc> :set hlsearch!<CR>
+vmap <C-h> <Esc> :set hlsearch!<CR>
 
 " Incremental search
 set is
