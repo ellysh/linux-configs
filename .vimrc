@@ -6,6 +6,9 @@ filetype plugin on
 
 set hidden
 
+" Disable the swap files creation
+set noswapfile
+
 " Show hidden characters
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
