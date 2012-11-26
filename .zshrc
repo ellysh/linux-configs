@@ -49,7 +49,7 @@ export LESS="-R"
 alias au='wine "C:\Program Files\AutoIt3\AutoIt3.exe"'
 
 # common
-alias patch='patch -p1'
+alias patch='patch -p1 < '
 alias ssh='ssh -Y'
 alias cd..='cd ..'
 alias ls='ls --color=auto'
@@ -106,6 +106,9 @@ alias mk='make'
 alias km='make'
 alias makec='make clean'
 alias mj='make -j2'
+alias mkd='make deb'
+alias mkdc='mkae deb-clean'
+alias mkc='mkae clean'
 
 # svn
 alias svnan='svn annotate'
