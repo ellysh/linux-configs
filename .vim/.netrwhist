@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/elly/Projects/linux-configs/.vim/doc'
-let g:netrw_dirhist_2='/home/elly/Projects/linux-configs/.vim'
-let g:netrw_dirhist_3='/home/elly/Projects/linux-configs/.vim/doc'
-let g:netrw_dirhist_4='/home/elly/Projects/linux-configs/.vim'
-let g:netrw_dirhist_5='/home/elly/Projects/uso-iso-source-3/preseed/etc'
-let g:netrw_dirhist_6='/home/elly/Projects/uso-iso-source-3/preseed/etc/rc5.d'
-let g:netrw_dirhist_7='/home/elly/Projects/drivers/ixpio/ixpio/examples/pisops300'
-let g:netrw_dirhist_8='/home/elly/Projects/memcached-test/source'
-let g:netrw_dirhist_9='/home/elly/Projects/gitolite'
+let g:netrw_dirhist_cnt =0

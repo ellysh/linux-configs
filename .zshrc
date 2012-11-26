@@ -49,6 +49,7 @@ export LESS="-R"
 alias au='wine "C:\Program Files\AutoIt3\AutoIt3.exe"'
 
 # common
+alias patch='patch -p1'
 alias ssh='ssh -Y'
 alias cd..='cd ..'
 alias ls='ls --color=auto'
