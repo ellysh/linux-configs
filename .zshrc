@@ -49,6 +49,7 @@ export LESS="-R"
 alias au='wine "C:\Program Files\AutoIt3\AutoIt3.exe"'
 
 # common
+alias dpkgb='dpkg-buildpackage -rfakeroot -b -us -uc'
 alias patch='patch -p1 < '
 alias ssh='ssh -Y'
 alias cd..='cd ..'
@@ -201,6 +202,7 @@ alias st='cd /home/$USER/Projects/simtool'
 alias vd='cd /home/$USER/Projects/virt-dashboard'
 alias ms='cd /home/$USER/Projects/mingw-starter'
 alias dr='cd /home/$USER/Projects/drivers'
+alias zc='cd /home/$USER/Projects/zero-cache'
 
 alias sus='sudo su -'
 alias shuh='shutdown -h now'
