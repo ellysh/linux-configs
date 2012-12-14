@@ -13,7 +13,7 @@
 ##
 
 ## Launch panel
-tint2 &
+(sleep 3s && tint2) &
 
 ## Start Conky after a slight delay
 (sleep 3s && conky -q) &
@@ -25,7 +25,7 @@ tint2 &
 setxkbmap "us,ru" ",winkeys" "grp:lwin_toggle,grp_led:scroll"
 
 ## Start dropbox
-(sleep 3s && /home/ilya/.dropbox-dist/dropbox) &
+(sleep 3s && /home/elly/.dropbox-dist/dropbox) &
 
 ## Launch network manager applet
 (sleep 3s && wicd-gtk -t) &

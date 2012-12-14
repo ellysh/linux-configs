@@ -1,4 +1,5 @@
 [global_config]
+  enabled_plugins = ActivityWatch,
   title_transmit_bg_color = "#b2b0b0"
   title_transmit_fg_color = "#000000"
   title_inactive_bg_color = "#4e4e4e"
@@ -14,15 +15,18 @@
   split_vert = <Shift><Control>j
 [profiles]
   [[default]]
-    scroll_on_output = False
-    font = Monospace 12
-    scrollback_lines = 5000
     use_system_font = False
+    scrollback_lines = 5000
+    foreground_color = "#dce0c4"
+    scroll_on_output = False
+    font = DejaVu Sans Mono 11
+    background_color = "#24251f"
 [layouts]
   [[default]]
     [[[child1]]]
       type = Terminal
       parent = window0
+      profile = default
     [[[window0]]]
       type = Window
       parent = ""
