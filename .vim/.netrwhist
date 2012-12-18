@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/elly/Projects/zero-cache/test/CMakeFiles'
 let g:netrw_dirhist_2='/home/elly/Projects/zero-cache/source/client'
 let g:netrw_dirhist_3='/home/elly/Projects/zero-cache/source/common'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='/home/elly/Projects/zero-cache/source/server'
 let g:netrw_dirhist_5='/home/elly/Projects/zero-cache/source/common'
 let g:netrw_dirhist_6='/var/log'
 let g:netrw_dirhist_7='/home/elly/tmp/cpp/zmq_async'
+let g:netrw_dirhist_8='/home/elly/Projects/zero-cache/source'
+let g:netrw_dirhist_9='/home/elly/Projects/zero-cache/test'
