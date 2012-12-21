@@ -1,0 +1,29 @@
+[KSharedDataCache]
+InfoOutput=4
+
+[gwenview]
+InfoOutput=4
+
+[kbuildsycoca4]
+InfoOutput=2
+
+[kdecore (KConfigSkeleton)]
+InfoOutput=2
+
+[kdecore (services)]
+InfoOutput=2
+
+[kded]
+InfoOutput=4
+
+[kdenlive]
+InfoOutput=4
+
+[kio (delegateanimationhandler)]
+InfoOutput=4
+
+[kio_trash]
+InfoOutput=4
+
+[knotify]
+InfoOutput=4

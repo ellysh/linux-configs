@@ -1,0 +1,22 @@
+[KFileDialog Settings]
+Height 1024=497
+Recent Files[$e]=$HOME/tmp/upload/img_2514.jpg,$HOME/tmp/upload/img_2514.jpg
+Width 1280=720
+
+[MainWindow]
+Height 1024=1025
+State=AAAA/wAAAAD9AAAAAAAABQAAAAOWAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1281
+
+[Notification Messages]
+ConfirmTrash=true
+
+[Recent Dirs]
+<copyMoveOrLink>[$e]=file://$HOME/tmp/upload/,$HOME/Documents
+
+[SideBar-BrowseMode]
+IsVisible=true
+
+[SideBar-ViewMode]
+IsVisible=true
