@@ -80,6 +80,16 @@ ftext()
   find . -type f -name $1 | xargs grep "$2" | grep -v 'svn' | grep -v '~'
 }
 
+fcp()
+{
+  find . -type f -name '*.cpp' | xargs grep "$1"
+}
+
+fh()
+{
+  find . -type f -name '*.h' | xargs grep "$1"
+}
+
 # grep
 alias grep='grep --color=auto'
 
