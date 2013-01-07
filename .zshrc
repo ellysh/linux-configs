@@ -213,6 +213,7 @@ alias vd='cd /home/$USER/Projects/virt-dashboard'
 alias ms='cd /home/$USER/Projects/mingw-starter'
 alias dr='cd /home/$USER/Projects/drivers'
 alias zc='cd /home/$USER/Projects/zero-cache'
+alias pzc='cd /home/$USER/Projects/python-zero-cache'
 
 alias sus='sudo su -'
 alias shuh='shutdown -h now'
