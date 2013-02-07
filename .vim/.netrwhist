@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/elly/Projects/git-sync/src'
-let g:netrw_dirhist_2='/home/elly/Projects/zeromq/debian/source'
-let g:netrw_dirhist_3='/home/elly/Projects/python-zero-cache/source'
-let g:netrw_dirhist_4='/home/elly/tmp/swig/cpp-test'
-let g:netrw_dirhist_5='/home/elly/tmp/swig'
