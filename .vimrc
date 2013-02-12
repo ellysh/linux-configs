@@ -40,7 +40,7 @@ vmap <C-h> <Esc> :set hlsearch!<CR>
 set is
 
 " Text width
-set textwidth=80
+" set textwidth=80
 
 " Minimal heigh
 set winminheight=0
