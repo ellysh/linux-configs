@@ -213,7 +213,7 @@ alias ms='cd /home/$USER/Projects/mingw-starter'
 alias dr='cd /home/$USER/Projects/drivers'
 alias zc='cd /home/$USER/Projects/zero-cache'
 alias pzc='cd /home/$USER/Projects/python-zero-cache'
-alias zcm='cd /home/$USER/Projects/zc-monitor'
+alias zcu='cd /home/$USER/Projects/zero-cache-utils'
 
 alias sus='sudo su -'
 alias shuh='sudo shutdown -h now'
