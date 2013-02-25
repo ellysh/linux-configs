@@ -95,10 +95,10 @@ nmap <F4> :q!<CR>
 imap <F4> <Esc>:q!<CR>
 vmap <F4> <Esc>:q!<CR>
 
-" Open/close Tag List plugin window
-map <F5> :TlistToggle<CR>
-imap <F5> <Esc>:TlistToggle<CR>
-vmap <F5> <Esc>:TlistToggle<CR>
+" Replace tabulation symbols to the spaces
+map <F5> :retab<CR>
+imap <F5> <Esc>:retab<CR>
+vmap <F5> <Esc>:retab<CR>
 
 " Open Project plugin window
 map <F6> :Project<CR>
