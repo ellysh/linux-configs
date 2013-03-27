@@ -28,4 +28,4 @@ setxkbmap "us,ru" ",winkeys" "grp:lwin_toggle,grp_led:scroll"
 (sleep 3s && /home/elly/.dropbox-dist/dropbox) &
 
 ## Launch network manager applet
-(sleep 3s && wicd-gtk -t) &
+#(sleep 3s && wicd-gtk -t) &

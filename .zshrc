@@ -77,7 +77,7 @@ ff()
 
 ftext()
 {
-  find . -type f -name $1 | xargs grep "$2" | grep -v 'svn' | grep -v '~'
+  find . -type f -name $1 | xargs grep "$2" | grep -v '~'
 }
 
 fcp()
