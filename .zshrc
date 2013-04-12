@@ -85,6 +85,11 @@ fcp()
   find . -type f -name '*.cpp' | xargs grep "$1"
 }
 
+fcc()
+{
+  find . -type f -name '*.c' | xargs grep "$1"
+}
+
 fh()
 {
   find . -type f -name '*.h' | xargs grep "$1"
