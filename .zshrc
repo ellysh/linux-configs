@@ -90,6 +90,11 @@ fcc()
   find . -type f -name '*.c' | xargs grep "$1"
 }
 
+fpy()
+{
+  find . -type f -name '*.py' | xargs grep "$1"
+}
+
 fh()
 {
   find . -type f -name '*.h' | xargs grep "$1"
@@ -121,7 +126,7 @@ alias mkea='make'
 alias mk='make'
 alias km='make'
 alias makec='make clean'
-alias mj='make -j2'
+alias mj='make -j8'
 alias mkd='make deb'
 alias mkdc='mkae deb-clean'
 alias mkc='mkae clean'
@@ -192,28 +197,9 @@ alias gitpu='git push origin'
 alias gitpo='git pull origin'
 
 # path
-alias pe='cd ~/Projects/planar-editor'
 alias pr='cd ~/Projects'
-alias pu='cd ~/Projects/pui'
-alias pw='cd ~/Projects/pui-firmware'
-alias sb='cd ~/Projects/simunit/bin/_bin'
-alias sc='cd ~/Projects/scripts'
-alias sd='cd ~/Projects/simunit-downgrade'
-alias si='cd ~/Projects/simunit'
-alias s14='cd ~/Projects/simunit-1.4'
-alias sl='cd ~/Projects/simtool'
-alias ss='cd ~/Projects/simscreen'
-alias ssb='cd ~/Projects/simscreen/bin'
-alias ste='cd ~/Projects/step-controller'
-alias la='cd ~/Projects/libarinc'
-alias lat='cd ~/Projects/libatom'
-alias lp='cd ~/Projects/libplanar'
-alias lse='cd ~/Projects/libserial'
-alias lms='cd ~/Projects/libmysql-state'
-alias st='cd ~/Projects/simtool'
-alias vd='cd ~/Projects/virt-dashboard'
-alias ms='cd ~/Projects/mingw-starter'
-alias dr='cd ~/Projects/drivers'
+alias os='cd ~/Projects/openacc_scripts'
+alias vgc='cd ~/Projects/vd-gcc-openacc'
 alias zc='cd ~/Projects/zero-cache'
 alias pzc='cd ~/Projects/python-zero-cache'
 alias zcu='cd ~/Projects/zero-cache-utils'
