@@ -52,7 +52,7 @@ set winheight=9999
 " Insert 4 spaces instead tab
 set tabstop=4
 set shiftwidth=4
-set expandtab 
+set expandtab
 
 " Show executed command
 set showcmd
@@ -153,3 +153,9 @@ cnoreabbrev cd cs f d
 cnoreabbrev cc cs f c
 " text
 cnoreabbrev ct cs f t
+
+" Abbreviatures
+" Python
+iab bang! #!/usr/bin/env python
+iab utf! # -*- coding: utf-8 -*-
+iab ifmain! if __name__ == "__main__":
