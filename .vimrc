@@ -100,16 +100,6 @@ map <F5> :retab<CR>
 imap <F5> <Esc>:retab<CR>
 vmap <F5> <Esc>:retab<CR>
 
-" Open Project plugin window
-map <F6> :Project<CR>
-imap <F6> <Esc>:Project<CR>
-vmap <F6> <Esc>:Project<CR>
-
-" Open NERDTree plugin window
-map <F7> :NERDTree<CR>
-imap <F7> <Esc>:NERDTree<CR>
-vmap <F7> <Esc>:NERDTree<CR>
-
 " Paste indents  toggle
 nnoremap <F8> :set invpaste paste?<CR>
 set pastetoggle=<F8>
