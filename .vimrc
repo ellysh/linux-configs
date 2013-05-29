@@ -146,6 +146,4 @@ cnoreabbrev ct cs f t
 
 " Abbreviatures
 " Python
-iab bang! #!/usr/bin/env python
 iab utf! # -*- coding: utf-8 -*-
-iab ifmain! if __name__ == "__main__":
