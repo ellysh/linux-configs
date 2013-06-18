@@ -77,15 +77,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -101,14 +92,3 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-# STM32 BEGIN
-#Added by FunTechCortexMX_gcc - ver_2011-04-17-21-gddcd8af-dirty
-#Multi process build 
-export PARALLEL=-j`getconf _NPROCESSORS_ONLN`
-
-#STM32 gcc...
-export TOOLPATH_STM32=/usr/local/stm32
-#export PATH=${TOOLPATH_STM32}/bin:$PATH
-# STM32 END
-
-alias shuh='shutdown -h now'
