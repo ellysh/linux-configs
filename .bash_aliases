@@ -17,15 +17,7 @@ alias ls='ls --color=auto'
 alias l='ls -l'
 alias fixkeyboard='/etc/X11/xinit/fixkeyboard'
 
-alias mv='nocorrect mv -i'
-alias cp='nocorrect cp -iR'
-alias rm='nocorrect rm -i'
-alias rmf='nocorrect rm -f'
-alias rmrf='nocorrect rm -fR'
-alias mkdir='nocorrect mkdir'
-
 alias h=history
-alias grep=egrep
 alias df='df -m'
 alias less='less -M'
 alias ls='ls -F --color=auto'
