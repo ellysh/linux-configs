@@ -1,6 +1,6 @@
 # Path для поиска командой cd: то есть вместо cd $HOME/docs/editors/
 # можно набирать просто cd editors
-cdpath=(~/Projects ~/Projects/drivers)
+cdpath=()
 
 # key bindings
 typeset -A key
@@ -56,13 +56,6 @@ alias cd..='cd ..'
 alias ls='ls --color=auto'
 alias l='ls -l'
 alias fixkeyboard='/etc/X11/xinit/fixkeyboard'
-
-alias mv='nocorrect mv -i'
-alias cp='nocorrect cp -iR'
-alias rm='nocorrect rm -i'
-alias rmf='nocorrect rm -f'
-alias rmrf='nocorrect rm -fR'
-alias mkdir='nocorrect mkdir'
 
 alias h=history
 alias grep=egrep
@@ -237,7 +230,8 @@ for func in $^fpath/*(N-.x:t); autoload $func
 typeset -U path cdpath fpath manpath
 
 # Patch PATH variable
-PATH=$HOME/Projects/scripts/bin:$PATH:/usr/local/bin
+PATH=$PATH:/usr/local/bin
+#PATH=/usr/lib/distcc:$HOME/Projects/scripts/bin:$PATH:/usr/local/bin
 
 # Указание путей к man-страницам.
 ## Linux:
