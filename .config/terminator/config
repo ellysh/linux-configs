@@ -15,11 +15,14 @@
   split_vert = <Shift><Control>j
 [profiles]
   [[default]]
-    use_system_font = False
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#2766a6:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
     scrollback_lines = 5000
+    use_system_font = False
     foreground_color = "#dce0c4"
+    backspace_binding = automatic
     scroll_on_output = False
-    font = DejaVu Sans Mono 11
+    delete_binding = automatic
+    font = Monospace 12
     background_color = "#24251f"
 [layouts]
   [[default]]
