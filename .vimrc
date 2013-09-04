@@ -70,20 +70,20 @@ set incsearch
 " Stop search at the file end
 set nowrapscan
 
-" Show hidden characters
-nmap <F1> :set list!<CR>
-imap <F1> <Esc>:set list!<CR>
-vmap <F1> <Esc>:set list!<CR>
+" Show/hide line numbers
+map <F1> :set invnumber<CR>
+imap <F1> <ESC>:set invnumber<CR>
+vmap <F1> <ESC>:set invnumber<CR>
 
 " Save file
 nmap <F2> :w!<CR>
 imap <F2> <Esc>:w!<CR>
 vmap <F2> <Esc>:w!<CR>
 
-" Make
-nmap <F3> :!make<CR>
-imap <F3> <Esc>:!make<CR>
-vmap <F3> <Esc>:!make<CR>
+" Show hidden characters
+nmap <F3> :set list!<CR>
+imap <F3> <Esc>:set list!<CR>
+vmap <F3> <Esc>:set list!<CR>
 
 " Switch buffers
 set switchbuf=usetab
@@ -95,20 +95,20 @@ nmap <F4> :q!<CR>
 imap <F4> <Esc>:q!<CR>
 vmap <F4> <Esc>:q!<CR>
 
-" Replace tabulation symbols to the spaces
-map <F5> :retab<CR>
-imap <F5> <Esc>:retab<CR>
-vmap <F5> <Esc>:retab<CR>
-
 " Paste indents  toggle
-nnoremap <F8> :set invpaste paste?<CR>
-set pastetoggle=<F8>
+nnoremap <F5> :set invpaste paste?<CR>
+set pastetoggle=<F5>
 set showmode
 
-" Show/hide line numbers
-map <F9> :set invnumber<CR>
-imap <F9> <ESC>:set invnumber<CR>
-vmap <F9> <ESC>:set invnumber<CR>
+" Replace tabulation symbols to the spaces
+map <F8> :retab<CR>
+imap <F8> <Esc>:retab<CR>
+vmap <F8> <Esc>:retab<CR>
+
+" Make
+nmap <F9> :!make<CR>
+imap <F9> <Esc>:!make<CR>
+vmap <F9> <Esc>:!make<CR>
 
 " Close buffer command
 map <C-w> :bw<CR>
