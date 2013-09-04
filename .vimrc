@@ -70,10 +70,10 @@ set incsearch
 " Stop search at the file end
 set nowrapscan
 
-" Build cscope database
-nmap <F1> :!cscope -R -b<CR>
-imap <F1> <Esc>:!cscope -R -b<CR>
-vmap <F1> <Esc>:!cscope -R -b<CR>
+" Show hidden characters
+nmap <F1> :set list!<CR>
+imap <F1> <Esc>:set list!<CR>
+vmap <F1> <Esc>:set list!<CR>
 
 " Save file
 nmap <F2> :w!<CR>
