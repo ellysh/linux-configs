@@ -93,4 +93,24 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-PATH=$PATH:/usr/local/bin
+log_bash_persistent_history()
+{
+  local date_part=`history 1 | awk '{ print $1 }'`
+  local command_part=`history 1 | awk '{ $1=""; print $0 }'`
+  if [ "$command_part" != "$PERSISTENT_HISTORY_LAST" ]; then
+    echo $date_part "|" "$command_part" >> ~/.persistent_history
+    export PERSISTENT_HISTORY_LAST="$command_part"
+  fi
+}
+
+# Stuff to do on PROMPT_COMMAND
+run_on_prompt_command()
+{
+    log_bash_persistent_history
+}
+
+PROMPT_COMMAND="run_on_prompt_command"
+
+PATH=$PATH:/usr/local/bin:/home/elly/Projects/scripts-my/bin
+
+export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:/usr/lib/gcc/x86_64-linux-gnu/4.6

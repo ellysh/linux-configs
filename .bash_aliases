@@ -17,7 +17,7 @@ alias ls='ls --color=auto'
 alias l='ls -l'
 alias fixkeyboard='/etc/X11/xinit/fixkeyboard'
 
-alias h=history
+alias hist='cat ~/.persistent_history | grep --color'
 alias df='df -m'
 alias less='less -M'
 alias ls='ls -F --color=auto'
@@ -86,6 +86,7 @@ alias gitstu='git status -uno'
 alias gt=git
 alias gitpu='git push origin'
 alias gitpo='git pull origin'
+alias gitpsm='git push samsung master'
 
 # path
 alias pr='cd ~/Projects'
@@ -95,3 +96,4 @@ alias zc='cd ~/Projects/zero-cache'
 alias pzc='cd ~/Projects/python-zero-cache'
 alias zcu='cd ~/Projects/zero-cache-utils'
 
+#alias autoconf='autoconf2.64'
