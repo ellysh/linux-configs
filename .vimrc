@@ -1,9 +1,17 @@
 set nocompatible
 
-filetype on
-filetype indent on
-filetype plugin on
+filetype off
 
+call pathogen#infect()
+
+filetype plugin indent on
+
+"filetype on
+"filetype indent on
+"filetype plugin on
+
+"set tags+=/home/elly/Projects/ethSec/tags
+set tags=./tags;/
 set hidden
 
 " Disable the swap files creation
@@ -50,9 +58,10 @@ set noequalalways
 set winheight=9999
 
 " Insert 4 spaces instead tab
+set smartindent
 set tabstop=4
 set shiftwidth=4
-set expandtab
+"set expandtab
 
 " Show executed command
 set showcmd
@@ -100,6 +109,9 @@ nnoremap <F5> :set invpaste paste?<CR>
 set pastetoggle=<F5>
 set showmode
 
+" Show all occurrences of a tag
+map <F6> [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
+
 " Replace tabulation symbols to the spaces
 map <F8> :retab<CR>
 imap <F8> <Esc>:retab<CR>
@@ -131,18 +143,8 @@ let Tlist_Enable_Fold_Column = 0  " no fold column (only showing one file)
 let g:explShowHiddenFiles = 1
 
 " Aliases
-cnoreabbrev tlt TlistToggle
-" cscope commands to search
-" symbols
-cnoreabbrev cs cs f s
-" definition
-cnoreabbrev cg cs f g
-" called by this function
-cnoreabbrev cd cs f d
-" calls this function
-cnoreabbrev cc cs f c
 " text
-cnoreabbrev ct cs f t
+cnoreabbrev A FSHere
 
 " Abbreviatures
 " Python
