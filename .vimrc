@@ -17,6 +17,10 @@ set hidden
 " Disable the swap files creation
 set noswapfile
 
+" check file change every 4 seconds ('CursorHold') and reload the buffer upon detecting change
+set autoread
+au CursorHold * checktime
+
 " Show hidden characters
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
@@ -61,7 +65,7 @@ set winheight=9999
 set smartindent
 set tabstop=4
 set shiftwidth=4
-"set expandtab
+set expandtab
 
 " Show executed command
 set showcmd
@@ -104,7 +108,7 @@ nmap <F4> :q!<CR>
 imap <F4> <Esc>:q!<CR>
 vmap <F4> <Esc>:q!<CR>
 
-" Paste indents  toggle
+" Paste indents toggle
 nnoremap <F5> :set invpaste paste?<CR>
 set pastetoggle=<F5>
 set showmode
@@ -112,20 +116,28 @@ set showmode
 " Show all occurrences of a tag
 map <F6> [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
 
-" Replace tabulation symbols to the spaces
-map <F8> :retab<CR>
-imap <F8> <Esc>:retab<CR>
-vmap <F8> <Esc>:retab<CR>
+" Toggle SPACE / TAB input
+function! ToggleTab()
+   if &expandtab
+      set noexpandtab
+   else
+      set expandtab
+   endif
+endfunction
 
-" Make
-nmap <F9> :!make<CR>
-imap <F9> <Esc>:!make<CR>
-vmap <F9> <Esc>:!make<CR>
+nmap <F7> :call ToggleTab()<CR>
+imap <F7> <Esc>:call ToggleTab()<CR>
+vmap <F7> <Esc>:call ToggleTab()<CR>
 
 " Close buffer command
 map <C-w> :bw<CR>
 imap <C-w> <ESC>:bw<CR>
 vmap <C-w> <ESC>:bw<CR>
+
+" Switch source / header file
+map <C-x> :FSHere<CR>
+imap <C-x> <ESC>:FSHere<CR>
+vmap <C-x> <ESC>:FSHere<CR>
 
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
