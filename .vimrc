@@ -139,6 +139,11 @@ map <C-x> :FSHere<CR>
 imap <C-x> <ESC>:FSHere<CR>
 vmap <C-x> <ESC>:FSHere<CR>
 
+" Launch the FZF plugin
+map <C-z> :FZF<CR>
+imap <C-z> <ESC>:FZF<CR>
+vmap <C-z> <ESC>:FZF<CR>
+
 " Page Up/Down behaviour
 nmap <PageUp> <C-U><C-U>
 imap <PageUp> <C-O><C-U><C-O><C-U>
@@ -161,3 +166,6 @@ cnoreabbrev A FSHere
 " Abbreviatures
 " Python
 iab utf! # -*- coding: utf-8 -*-
+
+" Use a FZF plugin
+set rtp+=~/.fzf
