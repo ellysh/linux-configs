@@ -1,5 +1,8 @@
 set nocompatible
 
+" Skip readonly warnings
+set autoread
+
 filetype off
 
 call pathogen#infect()
@@ -13,6 +16,13 @@ filetype plugin indent on
 "set tags+=/home/elly/Projects/ethSec/tags
 set tags=./tags;/
 set hidden
+
+" Turn on spell checking (if you don't check spelling, you suck)
+set spell
+set spelllang=en,fromtags
+
+" Autoload doxygen highlighting
+let g:load_doxygen_syntax=1
 
 " Disable the swap files creation
 set noswapfile
@@ -28,6 +38,7 @@ set list
 " Highlight the syntax
 syntax on
 set background=dark "or light
+"set syntax=cpp.doxygen
 
 " Show line numbers
 set number
